@@ -71,10 +71,10 @@ export default function data() {
 
   return {
     columns: [
-      { Header: "companies", accessor: "companies", width: "45%", align: "left" },
-      { Header: "members", accessor: "members", width: "10%", align: "left" },
-      { Header: "budget", accessor: "budget", align: "center" },
-      { Header: "completion", accessor: "completion", align: "center" },
+      { Header: "Date", accessor: "companies", width: "45%", align: "left" },
+      { Header: "List of products", accessor: "members", width: "10%", align: "left" },
+      { Header: "Total Order", accessor: "budget", align: "center" },
+      { Header: "Status", accessor: "completion", align: "center" },
     ],
 
     rows: [

@@ -29,7 +29,7 @@ function Invoices() {
     <Card sx={{ height: "100%" }}>
       <MDBox pt={2} px={2} display="flex" justifyContent="space-between" alignItems="center">
         <MDTypography variant="h6" fontWeight="medium">
-          Invoices
+          Transactions
         </MDTypography>
         <MDButton variant="outlined" color="info" size="small">
           view all
