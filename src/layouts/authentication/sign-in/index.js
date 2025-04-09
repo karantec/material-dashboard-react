@@ -35,7 +35,7 @@ function Basic() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const dummyEmail = "admin@example.com";
+    const dummyEmail = "admin@vendor.com";
     const dummyPassword = "admin123";
 
     if (email === dummyEmail && password === dummyPassword) {

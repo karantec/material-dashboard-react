@@ -39,6 +39,7 @@ Coded by www.creative-tim.com
 import Dashboard from "layouts/dashboard";
 import Tables from "layouts/tables";
 import Billing from "layouts/billing";
+import Vendor from "layouts/tables/index copy";
 import RTL from "layouts/rtl";
 import Notifications from "layouts/notifications";
 import Profile from "layouts/profile";
@@ -47,6 +48,7 @@ import SignUp from "layouts/authentication/sign-up";
 
 // @mui icons
 import Icon from "@mui/material/Icon";
+import VendorTables from "layouts/tables/index copy";
 
 const routes = [
   {
@@ -59,11 +61,11 @@ const routes = [
   },
   {
     type: "collapse",
-    name: "Inventory management",
-    key: "Inventory management",
+    name: "Vendor",
+    key: "Vendor",
     icon: <Icon fontSize="small">table_view</Icon>,
-    route: "/tables",
-    component: <Tables />,
+    route: "/vendor-details",
+    component: <VendorTables />,
   },
   {
     type: "collapse",
@@ -81,30 +83,6 @@ const routes = [
     route: "/tables",
     component: <Tables />,
   },
-  // {
-  //   type: "collapse",
-  //   name: "Profile",
-  //   key: "rtl",
-  //   icon: <Icon fontSize="small">receipt_long</Icon>,
-  //   route: "/rtl",
-  //   component: <RTL />,
-  // },
-  // {
-  //   type: "collapse",
-  //   name: "Notifications",
-  //   key: "notifications",
-  //   icon: <Icon fontSize="small">notifications</Icon>,
-  //   route: "/notifications",
-  //   component: <Notifications />,
-  // },
-  // {
-  //   type: "collapse",
-  //   name: "Profile",
-  //   key: "profile",
-  //   icon: <Icon fontSize="small">person</Icon>,
-  //   route: "/profile",
-  //   component: <Profile />,
-  // },
   {
     type: "collapse",
     name: "Sign In",
