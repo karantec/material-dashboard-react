@@ -118,8 +118,8 @@ const routes = [
     name: "Logout",
     key: "sign-up",
     icon: <Icon fontSize="small">assignment</Icon>,
-    route: "/authentication/sign-up",
-    component: <SignUp />,
+    route: "/authentication/sign-in",
+    component: <SignIn />,
   },
 ];
 
